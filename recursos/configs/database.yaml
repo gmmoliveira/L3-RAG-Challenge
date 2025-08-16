@@ -1,0 +1,6 @@
+database:
+  host: localhost
+  port: 5432
+  user: RAG_app
+  password: my_passwd321
+  dbname: RAG_DB
