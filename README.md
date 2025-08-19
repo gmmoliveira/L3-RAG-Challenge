@@ -18,6 +18,7 @@ Foram implementados os seguintes recursos:
 - Worflow simplificado com um único agente atuando em 2 etapas:
   1. Simplificação da query e escolha de palavras-chave;
   2. Busca na base de dados utilizando a query e as palavras-chave e subsequente formulação da resposta baseado nos resultados da busca;
+- Deploy local do LLM utilizando ollama, trata-se de uma solução soberana, ou seja, que não expõe dados privados para provedores terceirizados;
 
 Neste exemplo, é utilizado o modelo Qwen 3 de 32 bilhões de parâmetros pré-treinados cujo conhecimento foi destilado do Deepseek R1. Trata-se de um excelente modelo que requer uma GPU poderosa.
 
