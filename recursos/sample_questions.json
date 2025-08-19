@@ -1,0 +1,14 @@
+{
+    "questions": [
+        "Qual é o principal objetivo do estudo conduzido pela Anthropic?",
+        "Quais são as duas categorias de tarefas que concentram quase metade do uso de IA?",
+        "Que porcentagem de ocupações usa IA para pelo menos 25% de suas tarefas associadas?",
+        "Como os autores categorizam os padrões de uso entre automação e aumento (augmentation)?",
+        "Quais habilidades ocupacionais são mais prevalentes nas conversas com IA?",
+        "Como o uso de IA varia conforme o salário das ocupações?",
+        "Qual é a principal limitação dos dados utilizados no estudo?",
+        "Como os modelos Claude 3 Opus e Claude 3.5 Sonnet diferem nos padrões de uso?",
+        "Qual framework teórico fundamenta a análise das tarefas econômicas?",
+        "Que tipo de ocupações apresenta menor penetração de IA segundo o estudo?"
+    ]
+}

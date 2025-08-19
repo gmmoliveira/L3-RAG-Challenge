@@ -3,7 +3,7 @@ Solução de RAG para o desafio proposto no processo seletivo da L3
 
 ### Autor: Guilherme Oliveira
 ### Contato: gmmoliveira1@gmail.com
-### Data: 16 de agosto de 2025
+### Data: 18 de agosto de 2025
 
 # Definição do Problema
 
@@ -20,7 +20,7 @@ Verifique o arquivo `recursos/requirements.txt` para ver detalhes dos pacotes py
 
 Construa a imagem do container docker:
 ```
-sudo docker build -t rag-postgres .
+sudo docker build -t rag_postgres .
 ```
 
 Execute o container docker criado, ajuste os argumentos em acordo com as necessidades (e.g., para rotear a porta no localhost para 5000, utilize `-p 5432:5000`):
@@ -40,11 +40,6 @@ Existem algumas variáveis que são persistidas entre diferentes execuções do 
 sudo docker volume rm pgdata
 ```
 
-Para utilizar o reranking (RAG avançado) da infinity, precisamos rodar o servidor.
-```
-venv/bin/infinity_emb v2 --model-id BAAI/bge-multilingual-gemma2 --device cuda
-```
-
 Agora o banco de dados está executando, podemos executar o jupyter notebook `main.ipynb`.
 
 # Sistemas Utilizados & Requisitos
@@ -52,7 +47,7 @@ Agora o banco de dados está executando, podemos executar o jupyter notebook `ma
 Foram utilizados os seguintes sistemas:
 
 - python 3.11.11
-- PostgreSQL 14
+- PostgreSQL 17
 - PgVector 0.8.0
 - Ubuntu 22.04
 
